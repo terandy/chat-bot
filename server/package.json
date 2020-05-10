@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/express": "^4.17.6",
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
     "mongodb": "^3.5.7",
     "multer": "^1.4.2",
     "sha1": "^1.1.1",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.3.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
   }
 }
